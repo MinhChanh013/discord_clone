@@ -1,0 +1,40 @@
+.hotsale {
+  position: relative;
+  width: 100%;
+  padding: 75px 70px;
+  padding-bottom: 0px;
+  overflow: hidden;
+}
+.card-hotsalt {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  flex-wrap: wrap;
+}
+@media screen and ( max-width: 1024px) {
+  .hotsale {
+    padding: 50px 40px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .card-hotsalt {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .hotsale {
+    padding: 50px 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card-hotsalt {
+    grid-template-columns: 1fr;
+  }
+  .hotsale {
+    padding: 50px 20px;
+  }
+}

@@ -1,0 +1,73 @@
+.rating-shop {
+  position: relative;
+  background-color: rgba(31, 26, 26, 0.76);
+  cursor: pointer;
+  height: 56px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.rating-shop:hover {
+  background-color: rgb(48, 48, 48);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 56px;
+}
+.rating-container .rating-number {
+  color: #fff;
+  padding: 10px 10px;
+  height: 100%;
+  display: block;
+  display: flex;
+  align-items: center;
+}
+
+.rating-container .rating-img {
+  position: relative;
+  height: 100%;
+}
+.rating-container .rating-img img {
+  height: 100%;
+}
+.rating-container .rating-img::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #5865f2;
+}
+
+.rating-name {
+  color: #fff;
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 1.1px;
+  width: calc(100% - 250px);
+}
+
+.rating-money {
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  transform: translateY(-50%);
+}
+
+.rating-discord p {
+  background-color: #999;
+}
+
+.rating-discord p:hover{
+  background-color: #5865f2;
+}

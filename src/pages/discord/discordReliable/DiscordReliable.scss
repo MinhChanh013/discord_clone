@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+.discord-reliable {
+  padding: 120px 40px 80px 56px;
+  background-color: #f6f6f6;
+  position: relative;
+  overflow: hidden;
+}
+
+.discord-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.discord-header {
+  position: relative;
+}
+
+.discord-header h1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 95%;
+  text-transform: uppercase;
+  text-rendering: geometricPrecision;
+  text-align: center;
+  font-family: "Alfa Slab One", cursive;
+  margin-bottom: 24px;
+}
+
+.discord-header p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.625;
+}
+
+.discord-img {
+  margin-top: 16px;
+  padding-bottom: 120px;
+}
+
+.discord-more {
+  position: relative;
+  padding: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.more-header {
+  position: relative;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.img-more-header {
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .discord-header h1 {
+    font-size: 26px;
+  }
+  .discord-header p {
+    font-size: 15px;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .discord-reliable {
+    padding: 80px 10px 80px;
+  }
+  .discord-img {
+    padding-bottom: 80px;
+  }
+}

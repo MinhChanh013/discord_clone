@@ -1,0 +1,41 @@
+.scroll-top {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  transform: translateY(100px);
+  transition: all .3s ease;
+}
+
+.scroll-top.active {
+  transform: translateY(0px);
+}
+
+.scroll-container{
+  position: relative;
+  padding: 15px 20px;
+  background-color: rgba(110, 110, 110, 0.445);
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.icon-scroll{
+  color: #fff;
+  animation: animaScroll 2s infinite;
+  transition: transform .4s ease;
+}
+
+@keyframes animaScroll {
+  0%{
+    transform: translateY(10px);
+  }
+  50%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(10px);
+  }
+}
+
+.scroll-container:hover{
+  background-color: rgba(47, 46, 46, 0.445);
+}

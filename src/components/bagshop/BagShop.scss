@@ -1,0 +1,49 @@
+.bagshop.noscroll{
+overflow-y: hidden; 
+}
+
+.bagshop{
+    position: relative;
+    background-color: #fff;
+    border-radius: 4px;
+    max-height: 400px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.bagshop-container{
+    padding: 10px;
+}
+.bag-noitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+.bagshop-container p{
+    white-space: nowrap;
+}
+
+.seemore-bag{
+    display: block;
+    transform: translateX(-10px);
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 5px;
+    color: #111;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all .2s ease-in-out;
+}
+
+.seemore-bag:hover{
+    color: #404eed;
+}
+
+.content-seemore{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+

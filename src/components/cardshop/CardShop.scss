@@ -1,0 +1,138 @@
+.Card {
+  position: relative;
+  height: 195px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  margin: 5px;
+}
+
+.Card:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.box-card {
+  position: relative;
+  height: 240px;
+}
+
+.content-card {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: rgba($color: #414141, $alpha: 0.8);
+  padding: 8px 15px;
+  height: 82px;
+  transform: translateY(100%);
+  transition: all .1s ease-in-out;
+}
+
+.Card:hover .content-card{
+  transform: translateY(-50%);
+}
+.card-name {
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 1.8px;
+  transform: translateY(400%);
+  transition: all .2s ease-in-out;
+  transition-delay: .1s;
+}
+
+.Card:hover .card-name{
+  transform: translateY(0%);
+}
+.card-lef {
+  position: relative;
+}
+
+.card-money {
+  display: flex;
+  align-items: center;
+  transform: translateY(120%);
+  transition: all .2s ease-in-out;
+  transition-delay: .1s;
+}
+
+.Card:hover .card-money{
+  transform: translateY(0%);
+}
+
+.discord-money p {
+  color: #fff;
+  padding: 9px 5px;
+  background-color: #000;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.card-money .money {
+  padding: 0px 10px;
+}
+
+.money .money-old {
+  position: relative;
+  display: block;
+  font-style: oblique;
+  color: #fff;
+  font-size: 11px;
+}
+
+.money .money-old::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 80%;
+  background-color: #fff;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.money .money-new {
+  position: relative;
+    display: block;
+    color: #5865f2;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+
+.card-right {
+  position: relative;
+  display: block;
+  color: #fff;
+  padding: 8px 10px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  transition: transform .2s ease-in-out;
+  transform: translateY(200%);
+  transition-delay: .1s;
+  z-index: 9999;
+}
+
+.Card:hover .card-right{
+  transform: translateY(0%);
+}
+
+.card-right:hover {
+  color: #5865f2;
+  border: 2px solid #5865f2;
+}
+
+.money-present{
+  position: relative;
+  display: block;
+  color: #5865f2;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}

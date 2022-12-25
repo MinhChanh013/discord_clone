@@ -1,0 +1,57 @@
+.demo-bag-shop{
+    height: 80px;
+    background-color: #111;
+}
+
+.modal-add-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.modal-add-success
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+.modal-success{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px 30px;
+    background-color: rgba(81, 79, 79, 0.682);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    backdrop-filter: blur(4px);
+}
+
+.modal-success  .modal-icon-check{
+    padding: 7px 8px;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #fff;
+    font-size: 19px;
+    background-color: rgb(76, 210, 88);
+}
+.modal-success h4{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,137 @@
+.footer {
+  position: relative;
+  background-color: #23272a;
+  padding: 80px 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.footer-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  max-width: 1080px;
+}
+
+.footer-container .footer-right {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-right h4 {
+  color: #5865f2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  line-height: 95%;
+  text-transform: uppercase;
+  text-rendering: geometricPrecision;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.footer-right a {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 20px;
+  padding-top: 15px;
+  display: inline-block;
+}
+
+.footer-left {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+  margin-left: 150px;
+}
+
+.footer-left .footer-nav {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
+
+.footer-nav-title {
+  color: #5865f2;
+}
+
+.footer-left .footer-nav a {
+  color: #fff;
+  font-weight: 300;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.src-language {
+  width: 24px;
+  height: 16px;
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.main-language {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.footer-more {
+  position: relative;
+  padding: 50px 0;
+  max-width: 1080px;
+  width: 100%;
+  margin-top: 40px;
+  border-top: 1px solid #5865f2
+}
+
+.footer-more-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1040px) {
+  .footer-left{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container{
+    flex-direction: column;
+    
+  }
+  .footer-left{
+    margin-left: 0px;
+  }
+  .footer{
+    padding: 80px 24px 64px;
+    align-items: unset;
+  }
+  .footer-left{
+    grid-column-gap: 200px;
+    margin-top: 50px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .footer-left{
+    grid-column-gap: 50px;
+  }
+}

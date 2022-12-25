@@ -1,0 +1,103 @@
+.bagshop-item {
+  display: grid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3px;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 5px;
+  padding: 0px 3px;
+}
+.bagshop-item:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  background-color: rgba(92, 92, 93, 0.15);
+}
+.bagshop-item .bagshop-img {
+  width: 100px;
+  height: 62.54px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.bagshop-item .bagshop-img img {
+  height: 100%;
+}
+
+.bag-content-money {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 13px;
+  border: 1px solid rgb(245, 243, 243);
+  border-radius: 8px;
+  transition: all .2s ease-in-out;
+}
+
+.bag-content-money:hover{
+  border: 1px solid rgb(92, 165, 247);
+}
+
+.bag-content-money .number-money {
+  font-style: oblique;
+  font-size: 13px;
+  letter-spacing: 1.2px;
+}
+
+.number-item {
+  color: rgb(232, 114, 114);
+}
+
+.bagshop-item > .number-money {
+  color: #5862e1;
+  letter-spacing: 1.1px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.icon-trash {
+  padding: 8px;
+  background-color: #d8d3d3;
+  border-radius: 3px;
+  overflow: hidden;
+  color: #fff;
+  font-size: 0.8rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.icon-trash:hover {
+  color: #656ccd;
+}
+
+.btn-remove,
+.btn-add {
+  width: 15px;
+  height: 15px;
+  display: block;
+  background-color: rgba(183, 183, 183, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-radius: 4px;
+}
+
+.btn-remove:hover,
+.btn-add:hover {
+  background-color: rgb(173, 173, 173);
+}
+
+.btn-remove {
+  margin-right: 10px;
+}
+.btn-add {
+  margin-left: 10px;
+}
+.btn-status-money {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

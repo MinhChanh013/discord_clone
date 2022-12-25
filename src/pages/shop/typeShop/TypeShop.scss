@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+.typeShop {
+  background-color: #000;
+  padding: 80px 90px;
+  padding-bottom: 10px;
+  margin-top: -10px;
+}
+
+.tyShop-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-type {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-30px);
+  padding: 20px;
+  z-index: 999;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(228, 228, 228);
+  max-width: 900px;
+  transition: width 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.search-icon-type {
+  position: relative;
+  padding: 0 15px;
+  font-size: 20px;
+  margin-right: 45px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.search-icon-type:hover {
+  color: rgb(24, 112, 189);
+}
+
+.menu-type input {
+  outline: none;
+  border: 2px solid rgb(228, 228, 228);
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0 5px;
+  transition: all 0.2s ease-in-out;
+  margin-right: 5px;
+}
+
+.menu-type input:hover,
+.menu-type input:focus {
+  border: 2px solid rgb(135, 164, 243);
+}
+
+.btn-typeGame {
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(251, 240, 240);
+  padding: 15px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(62, 62, 62);
+  white-space: nowrap;
+}
+
+.btn-typeGame.active {
+  background-color: rgb(24, 112, 189);
+  color: #fff;
+  position: relative;
+}
+
+.btn-typeGame.active::before {
+  content: "";
+  position: absolute;
+  bottom: -27px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 5px;
+  background-color: rgb(24, 112, 189);
+  cursor: default;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.btn-typeGame:hover {
+  background-color: rgb(24, 112, 189);
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.type-game {
+  margin-top: 50px;
+  padding: 40px 70px;
+  overflow: hidden;
+}
+
+.cardGame {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.icon-slider-type {
+  display: none;
+}
+
+.time-type.hide {
+  display: none;
+}
+@media screen and (max-width: 1040px) {
+  .type-game {
+    padding: 40px;
+  }
+  .menu-type {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .cardGame {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .btn-typeGame {
+    display: none;
+  }
+  .btn-typeGame.active {
+    display: block;
+  }
+  .time-type,
+  .icon-slider-type {
+    display: block;
+    background-color: #555;
+    color: #fff;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  .time-type {
+    padding: 9px 12px;
+  }
+
+  .icon-slider-type {
+    margin-left: 10px;
+  }
+  .time-type:hover,
+  .icon-slider-type:hover {
+    background-color: #000;
+  }
+
+  .menu-type {
+    width: 63%;
+  }
+  .btn-typeGame.active.nothide {
+    display: none;
+  }
+
+  .btn-typeGame.nothide {
+    display: block;
+  }
+
+  .icon-slider-type.hide {
+    display: none;
+  }
+  .time-type {
+    cursor: pointer;
+  }
+  .menu-type.active {
+    width: 130%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .type-game {
+    padding: 10px;
+  }
+  .btn-typeGame{
+    font-size: 13px;
+    padding: 11px 17px;
+  }
+  .menu-type.active{
+    width: 145%;
+    grid-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .typeShop{
+    background-color: #000;
+    padding: 50px 90px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+  }
+  
+  .cardGame {
+    grid-template-columns: 1fr;
+  }
+  .menu-type{
+    padding: 14px;
+  }
+  .time-type{
+    padding: 7px 8px;
+  }
+  .time-type, .icon-slider-type{
+    font-size: 13px;
+  }
+  .menu-type.active{
+    grid-gap: 0px;
+  }
+  .menu-type{
+    width: 80%;
+  }
+  .menu-type.active{
+    width: 160%;
+  }
+  .menu-type{
+    grid-gap: 0px;
+  }
+  .btn-typeGame{
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .type-game{
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .menu-type.active{
+    width: 180%;
+  }
+  .menu-type{
+    width: 80%;
+  }
+  .icon-slider-type{
+    margin-right: 5px;
+  }
+}

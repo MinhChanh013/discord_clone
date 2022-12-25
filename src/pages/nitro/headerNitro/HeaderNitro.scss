@@ -1,0 +1,186 @@
+.header-nitro {
+  position: relative;
+  width: 100%;
+  height: 105vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.header-nitro video {
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  min-height: 120%;
+  min-width: 120%;
+  z-index: -9;
+}
+
+.nitro-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 0.75fr;
+}
+.nitro-container .nitro-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.nitro-container img {
+  width: 300px;
+  height: 112px;
+}
+
+.btn-nitro button {
+  color: #fff;
+  background-color: #23272a;
+}
+
+.btn-nitro button:hover {
+  background-color: #36393f;
+}
+
+.btn-nitro button .discord-nitro {
+  font-size: 12px;
+  padding: 2px 5px;
+  background-color: #5865f2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.btn-nitro button:nth-child(2) {
+  margin-left: 40px;
+}
+
+// p {
+//   color: #000;
+//   letter-spacing: 1.05px;
+//   margin-top: 30px;
+//   margin-bottom: 30px;
+// }
+
+.img-nitromini {
+  display: none;
+}
+@media screen and ( max-width: 1128px) {
+  .nitro-left .btn-nitro {
+    display: flex;
+    flex-direction: column;
+  }
+  .nitro-left .btn-nitro button {
+    width: 70%;
+  }
+  .nitro-left .btn-nitro button:nth-child(2) {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@media screen and ( max-width: 1024px) {
+  .nitro-container {
+    grid-template-columns: 1fr;
+  }
+
+  .nitro-left .btn-nitro button {
+    width: 100%;
+  }
+
+  .nitro-left .btn-nitro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .nitro-left .btn-nitro button:nth-child(2) {
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  .nitro-right {
+    display: none;
+  }
+
+  .header-nitro video {
+    position: absolute;
+    top: -5%;
+    left: -24%;
+    min-height: 141%;
+    min-width: 121%;
+    z-index: -9;
+  }
+
+  .img-nitromini {
+    display: block;
+  }
+
+  .header-nitro video {
+    display: none;
+  }
+
+  .header-nitro {
+    background: linear-gradient(90deg, #b473f5, #e292aa);
+    overflow: hidden;
+  }
+
+  .main-nitro .main-nitro-container {
+    padding: 100px 20px;
+  }
+
+  .img-double-nitro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .nitro-container img:nth-child(1) {
+    width: 45%;
+    height: 96%;
+  }
+
+  .img-nitromini {
+    transform: translateX(140px) translateY(48px);
+  }
+
+  .nitro-slide .main-nitro-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and ( max-width: 768px) {
+  .nitro-slide .main-nitro-content {
+    grid-template-columns: 1fr;
+  }
+  .main-nitro-container .nitro-slide,
+  .main-nitro .main-nitro-container {
+    display: block;
+  }
+  .main-foot .btn-nitro,
+  .nitro-left .btn-nitro {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-nitro button:nth-child(2),
+  .nitro-left .btn-nitro button:nth-child(2) {
+    margin: 0;
+    margin-top: 20px;
+  }
+}
+
+@media screen and ( max-width: 480px) {
+    .main-nitro-container .main-dead h2{
+        font-size: 21px;
+    }
+    .main-nitro-container .main-dead p{
+        font-size: 14px;
+    }
+    .main-nitro .main-nitro-container{
+        padding: 50px 10px;
+    }
+    .img-nitromini{
+        transform:  translateX(110px) translateY(48px);
+    }
+}

@@ -1,0 +1,103 @@
+.btn {
+  position: relative;
+  border-radius: 40px;
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  border: 0px solid transparent;
+}
+
+//small
+.btn.small {
+  padding: 12px 10px;
+  font-size: 13px;
+  background-color: #fff;
+  font-weight: 500;
+  color: #23272a;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn.small:hover {
+  color: #5865f2;
+  box-shadow: 0 5px 8px rgb(90, 89, 89);
+}
+
+//normal
+.btn.normal {
+  padding: 16px 32px;
+  font-size: 16px;
+  background-color: #23272a;
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.btn.normal:hover {
+  background-color: #36393f;
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+//big{
+.btn.big {
+  padding: 16px 32px;
+  font-size: 19px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.btn.white:hover,
+.btn.black:hover {
+  box-shadow: 0 8px 15px rgba(43, 42, 42, 0.2);
+}
+
+.btn.white:hover {
+  color: #5865f2;
+}
+
+//color
+.btn.black {
+  background-color: #23272a;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn.white {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn.blue {
+  background-color: #5865f2;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.btn.blue:hover {
+  background-color: hsl(235, 86.1%, 71.8%);
+  -webkit-box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+//language
+.language {
+  background-color: transparent;
+  border-radius: 0px;
+  cursor: pointer;
+  padding: 9px 6px;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+.language:hover {
+  background-color: #989898;
+}
+
+@media screen and (max-width: 768px) {
+  .btn.big{
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .btn.big{
+    font-size: 14px;
+  }
+}

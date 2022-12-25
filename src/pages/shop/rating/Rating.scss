@@ -1,0 +1,44 @@
+.rating{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.rating-main{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px
+}
+
+.rating-main h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width: 1024px) {
+    .rating-main{
+        width: 70%;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rating-main{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .rating-main{
+        width: 100%;
+    }
+    .rating-name{
+        font-size: 12px;
+    }
+}
