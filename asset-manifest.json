@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/discord_clone/static/css/main.9c8bd309.css",
+    "main.js": "/discord_clone/static/js/main.5be2d655.js",
+    "static/media/gif": "/discord_clone/static/media/1cbd3594bb5e8d90924a105d4aae924c.1ae117bb38d51631fdfb.gif",
+    "static/media/nitro.mp4": "/discord_clone/static/media/nitro.e368e96131087f1d9d54.mp4",
+    "static/media/dribbble-payment-boy.gif": "/discord_clone/static/media/dribbble-payment-boy.06203301f901fe2cbf55.gif",
+    "static/media/nitro7.png": "/discord_clone/static/media/nitro7.92b113805189ce7ed179.png",
+    "static/media/nitro6.png": "/discord_clone/static/media/nitro6.a2b2b7927dde7ed4a813.png",
+    "static/media/slide6.webp": "/discord_clone/static/media/slide6.fbe689c2f2a85260c88d.webp",
+    "static/media/nitromini.png": "/discord_clone/static/media/nitromini.c4f24da881de1039f9ea.png",
+    "static/media/main-1.svg": "/discord_clone/static/media/main-1.e2236b93f8ca27e6307bfbcf11b4e749.svg",
+    "static/media/slide3.webp": "/discord_clone/static/media/slide3.421fe0c378e0c6f311ba.webp",
+    "static/media/slide5.webp": "/discord_clone/static/media/slide5.5ebbd34bf5d2b2db365f.webp",
+    "static/media/main-3.svg": "/discord_clone/static/media/main-3.2b633b79ba966ad23a683742dfa60cf7.svg",
+    "static/media/slide2.webp": "/discord_clone/static/media/slide2.10e8e7b874350c1a40b6.webp",
+    "static/media/slide1.webp": "/discord_clone/static/media/slide1.5077e437e8597d5f20e1.webp",
+    "static/media/main-2.svg": "/discord_clone/static/media/main-2.58ff7a2be4dde6382f19cf3279d2faef.svg",
+    "static/media/img4.svg": "/discord_clone/static/media/img4.b8b2baa7deaa4d684823cc70302f9f85.svg",
+    "static/media/slide4.webp": "/discord_clone/static/media/slide4.8551bd833bea7a7878c5.webp",
+    "static/media/nitro3.svg": "/discord_clone/static/media/nitro3.7140578096ad7cf8f820ad409ee97aef.svg",
+    "static/media/dow2.svg": "/discord_clone/static/media/dow2.0dfa3a903b577a2c9086154abe45523d.svg",
+    "static/media/dow4.svg": "/discord_clone/static/media/dow4.646e3df64978d10e84e893cdf073a49b.svg",
+    "static/media/dow1.svg": "/discord_clone/static/media/dow1.5f95a2711a671265fee9a22bf07fb329.svg",
+    "static/media/nitro2.svg": "/discord_clone/static/media/nitro2.ee62d2afba26f592f18f534cb556cdf1.svg",
+    "static/media/dow3.svg": "/discord_clone/static/media/dow3.cc294c2a444b161831225b4873b48ec1.svg",
+    "static/media/dow5.svg": "/discord_clone/static/media/dow5.50e5417cef181b9178bb3048c54822ab.svg",
+    "static/media/nitro5.svg": "/discord_clone/static/media/nitro5.5843e23d65e5fa680f388a2df2f046be.svg",
+    "static/media/nitro4.svg": "/discord_clone/static/media/nitro4.bf5e18ffa6435791144cd5d7cdd2927b.svg",
+    "static/media/nitro1.svg": "/discord_clone/static/media/nitro1.7f495fdb427b8ea04fba0dbf6041f6fb.svg",
+    "static/media/img5.svg": "/discord_clone/static/media/img5.a3f3696d42e79a64b2fc679b6fef9bc4.svg",
+    "index.html": "/discord_clone/index.html",
+    "main.9c8bd309.css.map": "/discord_clone/static/css/main.9c8bd309.css.map",
+    "main.5be2d655.js.map": "/discord_clone/static/js/main.5be2d655.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c8bd309.css",
+    "static/js/main.5be2d655.js"
+  ]
+}
